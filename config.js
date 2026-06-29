@@ -12,8 +12,8 @@ module.exports = {
   },
   // 用于同步github的博客
   repo: {
-    owner: 'sl1673495',
-    name: 'blogs',
+    owner: 'brightmann',
+    name: 'slnb',
   },
   // 可选 如果申请了github Oauth app的话
   // 可以填写用于取消github请求限制
