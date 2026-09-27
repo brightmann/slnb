@@ -8,7 +8,7 @@ module.exports = {
   pageDir,
   // 用于更改标题上的用户信息
   user: {
-    name: 'ssh',
+    name: 'ym',
   },
   // 用于同步github的博客
   repo: {
