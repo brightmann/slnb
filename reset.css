@@ -1,0 +1,17 @@
+html {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*:before {
+  box-sizing: inherit;
+}
+
+*:after {
+  box-sizing: inherit;
+}
