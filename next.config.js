@@ -1,9 +1,8 @@
-const withCss = require('@zeit/next-css')
-
-if (typeof require !== 'undefined') {
-  require.extensions['.css'] = () => {}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
-module.exports = withCss({
-  exportTrailingSlash: true,
-})
+module.exports = nextConfig

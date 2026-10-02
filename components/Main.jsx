@@ -48,9 +48,7 @@ export default ({ blogs }) => {
           const { id, title } = blog
           return (
             <h3 key={id}>
-              <Link href={`/${id}`} prefetch={false}>
-                <a className="title-link">{title}</a>
-              </Link>
+              <Link href={`/${id}`} prefetch={false} className="title-link">{title}</Link>
             </h3>
           )
         })}

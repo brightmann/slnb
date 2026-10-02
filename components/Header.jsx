@@ -5,9 +5,7 @@ export default function Header() {
   return (
     <div>
       <h2 className="title">
-        <Link href="/">
-          <a>{config.user.name}的前端博客</a>
-        </Link>
+        <Link href="/">{config.user.name}的前端博客</Link>
       </h2>
       <style jsx>{`
           .title {
